@@ -1,0 +1,547 @@
+.hero{
+    height: 520px;
+    background: url(../../assets/images/hero.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 50px 72px 50px;
+}
+.hero-text{
+    width: 574px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.hero-text h3{
+    color: var(--Brand, #008000);
+font-family: Urbanist;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.7px;
+text-transform: uppercase;
+text-align: center;
+}
+.hero-text h1{
+    color: #001C00;
+text-align: center;
+font-family: Urbanist;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 84px; /* 131.25% */
+}
+.hero-text p{
+    color: #2A2A2A;
+text-align: center;
+font-family: "Work Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+.hero-btn{
+    display: flex;
+    gap: 24px;
+}
+.hero-btn button{
+    display: flex;
+height: 48px;
+padding: 10px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 50px;
+text-align: center;
+font-feature-settings: 'liga' off;
+font-family: "Work Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 150% */
+}
+.book-btn{
+    background: var(--Brand, #008000);
+    color: white;
+}
+.how-btn{
+    background: white;
+    color: #008000;
+}
+.pro{
+    padding: 56px 149px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 95px;
+    background: #FBFFFB;
+}
+.pro-box{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 317px;
+}
+.pro-box h3{
+    color: #001C00;
+
+/* Heading 3 */
+font-family: Urbanist;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 44px; /* 183.333% */
+}
+.pro-box p{
+    color: #2A2A2A;
+
+/* Paragraph */
+font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+.about{
+    padding: 56px 175px 56px 150px;
+    display: flex;
+    gap: 147px;
+    background: white;
+}
+.about-left{
+    width: 461px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.about-left h3{
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    color: var(--Brand, #008000);
+font-family: Urbanist;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.7px;
+text-transform: uppercase;
+}
+.about-left h1{
+    color: #001C00;
+font-family: Urbanist;
+font-size: 46px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px; /* 139.13% */
+}
+.about-left p{
+    color: #2A2A2A;
+
+/* Paragraph */
+font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+.about-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.stat{
+    width: 100%;
+}
+.stat-top{
+    display: flex;
+    justify-content: space-between;
+}
+.stat-top h3{
+    color: var(--Brand, #008000);
+
+/* Heading 5 */
+font-family: Urbanist;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 200% */
+}
+.stat-top p{
+    color: #32272B;
+/* text-align: right; */
+
+/* Heading 5 */
+font-family: Urbanist;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 200% */
+}
+.video{
+    display: flex;
+    justify-content: center;
+    padding: 50px 150px;
+
+    height: 300px;
+    overflow: hidden;
+    object-fit: contain;
+    /* width: 1140px; */
+height: 571px;
+flex-shrink: 0;
+position: relative;
+}
+video{
+    width: 1140px;
+height: 641.25px;
+flex-shrink: 0;
+border-radius: 30px;
+cursor: pointer;
+}
+.play{
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+
+}
+.choose{
+    display: flex;
+    padding: 56px 150px 46px 122px;
+    gap: 62px;
+    background: #F9F9F9;
+}
+.choose .laundry-img{
+    width: 548px;
+    height: 669px;
+}
+.left-text h3{
+    display: flex;
+    align-items: center;
+    gap: 19px;
+
+}
+.left-text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.left-text h1{
+    color: #001C00;
+
+/* Heading 2 */
+font-family: Urbanist;
+font-size: 46px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px; /* 139.13% */
+}
+.left-text p{
+    color: var(--Text, #7F8490);
+font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+.left-text span{
+    color: var(--Orange-Brand, #EE7F50);
+}
+.bullet{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 40px;
+
+}
+.bullet-p{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.bullet-p h2{
+    display: flex;
+    gap: 12px;
+    color: var(--Primary, #1B1850);
+
+/* Heading 6 */
+font-family: Urbanist;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 38px; /* 211.111% */
+}
+.bullet-p p{
+    color: var(--Text, #7F8490);
+
+/* Paragraph */
+font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+padding-left: 36px;
+}
+
+.price{
+    padding: 56px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+}
+.price-text{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+    width: 645px;
+}
+.price-text h3{
+    display: flex;
+    gap: 19px;
+    color: var(--Brand, #008000);
+font-family: Urbanist;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.7px;
+text-transform: uppercase;
+}
+.price-text h1{
+    color: #001C00;
+text-align: center;
+
+/* Heading 2 */
+font-family: Urbanist;
+font-size: 46px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px; /* 139.13% */
+}
+.price-text p{
+    color: var(--Text, #7F8490);
+text-align: center;
+
+/* Paragraph */
+font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+.mon{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+.mon h2{
+    color: var(--Primary, #1B1850);
+
+/* Heading 2 */
+font-family: Urbanist;
+font-size: 46px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px; /* 139.13% */
+}
+.pri-p{
+    color: var(--Text, #7F8490);
+
+/* Paragraph */
+font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+width: 287px;
+margin-bottom: 20px;
+}
+.mon p{
+    color: var(--Text, #7F8490);
+
+/* Paragraph */
+font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+.line{
+    width: 268px;
+height: 1px;
+background: #D1D1DC;
+}
+.pribul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.pribul p{
+    display: flex;
+    gap: 12px;
+    color: var(--Text, #7F8490);
+font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+.price-box{
+    padding: 40px 17px 38px 36px;
+    border-radius: 16px;
+background: var(--BG-Light, #F5F2F7);
+}
+.p-top{
+    color: var(--Grey-2, #83639E);
+font-family: Urbanist;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.7px;
+text-transform: uppercase;
+display: flex;
+gap: 19px;
+margin-bottom: 18px;
+}
+.get-btn{
+    display: flex;
+width: 268px;
+padding: 20px 32px;
+justify-content: center;
+align-items: center;
+border-radius: 30px;
+background: #C2FFC2;
+color: var(--Brand, #008000);
+font-family: Urbanist;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.box-two{
+    background: var(--Blue-Light, #EFF3FF);
+}
+.pricing{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+.get2{
+    background: var(--Brand, #008000);
+    color: white;
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-items: center;
+    padding: 56px 150px;
+}
+
+.review-top{
+    display: flex;
+    flex-direction: column;
+padding: 32px 37px 15px 37px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 20px;
+border-radius: 12px 12px 0px 0px;
+border: 1px solid var(--Grey-1, #D1D1DC);
+}
+.review-top img{
+    height: 20px;
+    width: 20px;
+}
+.review-top p{
+    color: var(--Text, #7F8490);
+
+/* Paragraph */
+font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+width: 266px;
+}
+.stars{
+    display: flex;
+}
+.review-down{
+    display: flex;
+    gap: 15px;
+    border-radius: 0px 0px 12px 12px;
+border-right: 1px solid var(--Grey-1, #D1D1DC);
+border-bottom: 1px solid var(--Grey-1, #D1D1DC);
+border-left: 1px solid var(--Grey-1, #D1D1DC);
+padding: 19px 37px;
+}
+.rename h3{
+    color: var(--Primary, #1B1850);
+
+/* Heading 6 */
+font-family: Urbanist;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+}
+.rename p{
+    color: var(--Text, #7F8490);
+
+/* Paragraph */
+font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+}
+.reviews{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.revend{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.rev-p{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: 20px;
+}
+.rev-p p{
+    color: var(--Text, #7F8490);
+
+/* Heading 4 */
+font-family: Urbanist;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 42px; /* 190.909% */
+}
+.revend h2{
+    color: var(--Primary, #1B1850);
+text-align: center;
+
+/* Heading 3 */
+font-family: Urbanist;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 44px; /* 183.333% */
+}
