@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+.wrapper {
+  padding: 32px 60px;
+  background: #eaf0f3;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.top h1 {
+  color: var(--Primary, #00d4ff);
+  font-family: Poppins;
+  font-size: 31.124px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+}
+.top h1 span {
+  color: #202020;
+}
+.top p {
+  color: #000;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+.ticket {
+  background-color: #fff;
+  padding: 36px 54px;
+  border-radius: 6px;
+  background: var(--Select-Pic-Color-Select, #fff);
+}
+.tick {
+  padding: 35px;
+  border-radius: 10px;
+  border: 1px solid rgba(189, 189, 189, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.date h1 {
+  color: #202020;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.ticktop {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.ttop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ttop h3 {
+  color: #0578ff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.ttop p {
+  color: #202020;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.book {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.bd {
+  color: #202020;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.book h2 {
+  color: #202020;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.book p {
+  color: #606060;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.gues {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gues h3 {
+  color: #606060;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.bk {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bk div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.bk h3 {
+  color: #606060;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.bk h3 span {
+  color: #31a91d;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.total h2 {
+  color: #202020;
+  font-family: Nunito;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.total h3 {
+  color: #404040;
+  font-family: Nunito;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.notice {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: start;
+  margin-top: 34px;
+}
+.notice h2 {
+  color: #000;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.notice p {
+  color: #000;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.bp {
+  margin-top: 30px;
+}
+.bp p:last-child {
+  font-weight: 700;
+  text-align: left;
+}
+.dbtn {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  color: #121212;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 10px;
+  border: 1px solid var(--Primary, #00d4ff);
+  background-color: var(--Primary, #00d4ff);
+  padding: 12px 45px;
+}
+.date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.date div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.date h2 {
+  color: #202020;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.date p {
+  color: #202020;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.ht {
+  color: #000;
+  font-family: Nunito;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 22px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+.bottom p {
+  color: #000;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.bottom h5 {
+  color: var(--Primary, #00d4ff);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.bottom h5 span {
+  color: #202020;
+}
+@media screen and (max-width: 600px) {
+  .wrapper {
+    padding: 12px;
+  }
+  .ticket {
+    padding: 12px;
+  }
+  .tick {
+    padding: 12px;
+  }
+  .bk h3,
+  .book p,
+  .gues h3,
+  .total h2,
+  .notice p {
+    font-size: 14px;
+  }
+}
